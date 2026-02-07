@@ -4,7 +4,7 @@ import background from '../assets/background.png'
 const Started = () => {
     return (
         <>
-            <section className="pt-8 bg-cover bg-center h-[65vh] relative " style={{ backgroundImage: `url(${background})` }}>
+            <section className="pt-8 bg-cover bg-center h-[55vh] relative " style={{ backgroundImage: `url(${background})` }}>
                 {/* sky overlay */}
                 <div className="absolute inset-0 bg-sky-500/10"></div>
                 <div className="relative flex items-center flex-col justify-center">

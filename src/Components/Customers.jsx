@@ -1,4 +1,4 @@
-import peoples from "../assets/people.png";
+import peoples from "../assets/group.png";
 import gemenie from '../assets/gemini.png'
 import yamaha from '../assets/yamaha.png'
 import biocon from '../assets/biocon.png'
@@ -11,33 +11,7 @@ const Customers = () => {
     return (
         <section className="w-full border-b border-gray-200 flex justify-center items-center flex-col bg-white py-16 px-4">
 
-        <svg className="-mt-55 relative " width="900" height="270" viewBox="0 0 900 260">
-                <defs>
-                    <clipPath id="cloudClip">
-
-                        <rect x="0" y="120" width="900" height="140" />
-
-
-                        <circle cx="90" cy="120" r="90" />
-                        <circle cx="270" cy="120" r="90" />
-                        <circle cx="450" cy="120" r="90" />
-                        <circle cx="630" cy="120" r="90" />
-                        <circle cx="810" cy="120" r="90" />
-                    </clipPath>
-                </defs>
-
-                <image
-                    href={peoples}
-                    width="900"
-                    height="260"
-                    clipPath="url(#cloudClip)"
-                    preserveAspectRatio="xMidYMid slice"
-                />
-            </svg>
-
-
-            {/* <img src={peoples} width={800} className="relative -mt-50 h-[50vh] rounded-tl-[80px] rounded-br-[80px]" alt="" /> */}
-
+            <img className="-mt-35  z-40" src={peoples} alt="" />
 
             <div className="mt-10 sm:mt-15 text-center px-4">
                 <button className="rounded-full bg-sky-100 text-sky-600 font-bold px-5 py-2 text-sm sm:text-base">

@@ -2,6 +2,7 @@ import Awards from './Components/Awards'
 import Built from './Components/Built'
 import Customers from './Components/Customers'
 import Footer from './Components/Footer'
+import FooterCard from './Components/FooterCard'
 import Navbar from './Components/Navbar'
 import OurPromise from './Components/OurPromise'
 import Started from './Components/Started'
@@ -17,6 +18,7 @@ const App = () => {
       <Awards />
       <Built />
       <Testimonial />
+      <FooterCard />
       <Footer />
     </>
   )
