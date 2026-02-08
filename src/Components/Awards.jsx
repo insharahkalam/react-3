@@ -20,7 +20,7 @@ const Awards = () => {
             </div>
 
             {/* Cards Grid */}
-            <div className='flex justify-center items-center flex-wrap  mt-10 gap-10'>
+            <div className='flex justify-center items-center flex-wrap mt-10 gap-10'>
                 <Cards className={'bg-[#FFF5F3]'} img={leader} title={<>Market leader across <br /> 18 categories</>} />
                 <Cards className={'bg-[#FFF0F9]'} img={icon2} title={<>Most loved SaaS tool <br /> in 2021</>} />
                 <Cards className={'bg-[#ECFFFF]'} img={icon3} title={<>Category leader in <br /> 2022</>} />
